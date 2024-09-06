@@ -1,6 +1,6 @@
 package coding;
 //package berupa folder yang dalamnya berisi program java
-public class Day4 {
+public class Day5 {
     //bagian class
     public static void main(String[] args) {
       //method main atau awal program java berjalan (wajib)

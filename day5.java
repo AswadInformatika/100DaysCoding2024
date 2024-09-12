@@ -12,6 +12,6 @@ public class Day5 {
         contoh format nya seperti:
         %s format untuk teks atau tipe data String
         \n format pengganti enter atau baris baru
-        %s format yang isinya bilangan seperti 19*/ 
+        %d format yang isinya bilangan seperti 19*/ 
     }
 }

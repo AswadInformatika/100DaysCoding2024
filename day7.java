@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Nama " + nama);
         //menampilkan variabel yang sudah di buat
         String alamat = "Rangas";
-        //inisialisasi saat deklarasi atau variabel di beri nilai langsung
+        //inisialisasi 
         System.out.println("Alamat " + alamat);
         //menampilkan variabel yang sudah di buat
         

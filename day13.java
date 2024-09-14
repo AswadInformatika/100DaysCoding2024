@@ -6,8 +6,8 @@ public class Main {
         System.out.println();
         System.out.printf("Umur %d", 19);
 
-       //deklarasi variabel itu penulisan tipe data tanpa memberikan nilai pada variabelnya
-        /*inisialisasi itu pengisian nilai variabel yang sudah dibuat*/             
+       //deklarasi variabel: membuat variabel tanpa memberikan nilai
+        /*inisialisasi variabel: memberikan nilai pada variabel */             
  
      final String nama = "Aswad"; 
   

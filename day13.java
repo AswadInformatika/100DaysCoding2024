@@ -8,12 +8,6 @@ public class Main {
 
        //deklarasi variabel itu penulisan tipe data tanpa memberikan nilai pada variabelnya
         /*inisialisasi itu pengisian nilai variabel yang sudah dibuat*/             
-        
-        System.out.printf("Nama: %s", "Aswad");
-        System.out.println();
-        System.out.printf("Nim: %s", "D0224020");
-        System.out.println();
-        System.out.printf("Umur %d", 19);
  
      final String nama = "Aswad"; 
   

@@ -10,7 +10,7 @@ public class Main {
        final char kelas = 'B';
        final String prodi = "Informatika";
        /*variabel final dimana nilainya tidak dapat di ubah setelah inisialiasi(nilainya di isi)
-       inisialisasi saat deklarasi atau variabel di beri nilai langsung*/
+       inisialisasi saat deklarasi*/
        
        System.out.println("Nama: " + nama + " NIM: " + nim + " Kelas: " + kelas + " Prodi: " + prodi);
        //memampilkan variabel biodata yang sudah di buat dalam 1 baris

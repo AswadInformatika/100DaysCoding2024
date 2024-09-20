@@ -5,6 +5,6 @@ public class Main {
         String nama = "Aswad";
         //tipe data primitif atau reference
         //yang menampung kata atau sejumlah karakter selagi dalam petik dua " "
-        System.out.println("Hello, World!");
+        System.out.println("Nama saya " + nama);
     }
 }

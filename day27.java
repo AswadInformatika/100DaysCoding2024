@@ -5,7 +5,7 @@ public class Main {
         Boolean iya = false;
         //deklarasi dan inisialisasi tipe data reference Boolean
         //menampung nilai true dan false
-        System.out.println(belajar);
-        System.out.println(iya);
+        System.out.println("Belajar? " + belajar);
+        System.out.println("Serius? " + iya);
     }
 }

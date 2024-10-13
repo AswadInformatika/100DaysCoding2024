@@ -4,9 +4,9 @@ public class Main {
         //operator penugasan
         int a = 5;
         int b = 2;
-        boolean samaDengan = a == b; //sama dengan
-        System.out.println(samaDengan);
-        boolean tidakSamaDengan = a != b; //tidak sama dengan
-        System.out.println(tidakSamaDengan);
+        boolean c = a == b; //sama dengan
+        System.out.println(c);
+        boolean d = a != b; //tidak sama dengan
+        System.out.println(d);
     }
 }

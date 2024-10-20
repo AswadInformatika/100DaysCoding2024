@@ -10,11 +10,11 @@ public class Main {
         System.out.print("Masukkan angka ketiga: ");
         int c = isc.nextInt();
         if(a > b && a > c){
-            System.out.println("Angka terbesar adalah " + angkaPertama);
+            System.out.println("Angka terbesar adalah " + a);
         }else if(b > a && b > c){
-            System.out.println("Angka terbesar adalah " + angkaKedua);
+            System.out.println("Angka terbesar adalah " + b);
         }else{
-            System.out.println("Angka terbesar adalah " + angkaKetiga);
+            System.out.println("Angka terbesar adalah " + c);
         }  
     }
 }

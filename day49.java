@@ -7,14 +7,10 @@ public class Main {
         int a = isc.nextInt();
         System.out.print("Masukkan angka kedua: ");
         int b = isc.nextInt();
-        System.out.print("Masukkan angka ketiga: ");
-        int c = isc.nextInt();
-        if(a > b && a > c){
+        if(a > b){
             System.out.println("Angka terbesar adalah " + a);
-        }else if(b > a && b > c){
+        }else if(b < a){
             System.out.println("Angka terbesar adalah " + b);
-        }else{
-            System.out.println("Angka terbesar adalah " + c);
         }  
     }
 }

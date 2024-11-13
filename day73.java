@@ -10,7 +10,7 @@ public class Main {
         System.out.print("Masukkan indeks: ");
         int indeks = sc.nextInt();
 
-        char huruf = nama.charAt(indeks);
+        char huruf = nama.charAt(indeks - 1);
         System.out.println("Indeks ke " + indeks + " adalah huruf: " + huruf);
         
     }

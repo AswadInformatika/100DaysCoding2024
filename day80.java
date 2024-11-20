@@ -7,12 +7,12 @@ public class Main {
 
         String nama;
         while (true) {
-            System.out.print("Masukkan nama (tidak boleh kosong): ");
+            System.out.print("Masukkan nama dan tidak boleh kosong: ");
             nama = scanner.nextLine().trim();
             if (nama.length() > 0) {
                 break;
             }
-            System.out.println("Nama tidak boleh kosong. Silakan coba lagi.");
+            System.out.println("Nama tidak boleh kosong. Coba lagi.");
         }
 
         cekNama(nama);

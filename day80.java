@@ -1,18 +1,17 @@
 package day80;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         String nama;
         while (true) {
-            System.out.print("Masukkan nama dan tidak boleh kosong: ");
-            nama = scanner.nextLine().trim();
+            System.out.print("Masukkan nama: ");
+            nama = sc.nextLine().trim();
             if (nama.length() > 0) {
                 break;
             }
-            System.out.println("Nama tidak boleh kosong. Coba lagi.");
+            System.out.println("Nama tidak boleh kosong. Silakan coba lagi.");
         }
 
         cekNama(nama);

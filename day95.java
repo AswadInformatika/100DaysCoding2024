@@ -4,14 +4,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan jumlah baris: ");
         int n = sc.nextInt();
-        System.out.println("Pola Segitiga Siku-Siku:");
+        System.out.println("");
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-        System.out.println("\nPola Segitiga Siku-Siku Terbalik:");
+        System.out.println("\n");
         for (int i = n; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
